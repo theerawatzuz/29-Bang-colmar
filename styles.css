@@ -248,7 +248,7 @@ display: flex;
 
 .thsis-player-info{
     padding-top: 24px;
-    padding-bottom: 32px;
+ 
     text-align: start;
 }
 
@@ -293,4 +293,27 @@ display: flex;
     text-align: start;
     padding: 16px;
 }
+
+.footerbar{
+    font-size: 0.8rem;
+    background: #f3f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #ccc;
+}
+
+.document{
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.document div{
+    margin-left: 8px;
+}
+
+
+
+
 
