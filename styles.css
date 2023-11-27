@@ -78,7 +78,7 @@
 
 .detailbox1{
     display: flex;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
     background:#f3f5f5;
     color:#4a4a4a;
 }
@@ -161,3 +161,61 @@
     color: #4a90e2;
     cursor: pointer;
 }
+
+.learning{
+    display: block;
+    padding: 32px 72px 32px 72px;
+    text-align: center;
+    background: #eaebec;
+    
+}
+
+.learning-head{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4a4a4a;
+}
+
+
+.learning-card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.learning-card img{
+    height: 12rem;
+}
+
+.learn-card1{
+    margin: 16px;
+    background-color: white;
+}
+
+
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+    margin: 16px;
+    
+}
+
+.card-head{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color:#4a4a4a;
+}
+
+.card-type,.card-information{
+    font-size: 0.8rem;
+    color: #4a4a4a;
+    overflow-wrap: break-word;
+}
+
+
+
+
