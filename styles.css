@@ -1,10 +1,13 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
+
+@media screen and (min-width: 431px){
 .navbar{
     display: flex;
    justify-content: space-between;
@@ -311,6 +314,71 @@ display: flex;
 
 .document div{
     margin-left: 8px;
+}
+
+.navmobile{
+
+    display:none;
+}
+
+  }
+/* end of pc */
+  
+
+/* start mobile */
+
+
+.navbar{
+    display: none;
+}
+
+
+
+
+.nav-flex{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    padding: 10px;
+}
+
+.learn-card1{
+    display: none;
+}
+
+.intro-content{
+    
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    padding-bottom: 32px;
+
+}
+
+.intro-content-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4c4c4c;
+}
+
+.intro-content-detail1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4c4c4c;
+}
+
+.header-botton{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: #9c9c9c;
+    border: none;
 }
 
 
