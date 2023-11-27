@@ -188,7 +188,12 @@
     height: 12rem;
 }
 
-.learn-card1{
+.learn-card1,
+.learn-card2,
+.learn-card3,
+.learn-card4,
+.learn-card5,
+.learn-card6{
     margin: 16px;
     background-color: white;
 }
@@ -216,6 +221,33 @@
     overflow-wrap: break-word;
 }
 
+.thesis{
+    background: #f3f5f5;
+    text-align: center;
+    padding: 32px 24px 32px 24px;
+    color:#4a4a4a;
+}
+
+.thesis-header{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4a4a4a;
+}
+
+.thesis-player{
+    flex: 1;
+    width: 60%;
+}
+
+.thsis-player-info{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    text-align: start;
+}
 
 
+.thesis-content{
+    flex: 1;
+}
 
