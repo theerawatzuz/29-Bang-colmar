@@ -7,6 +7,161 @@
   }
 
 
+  /* start mobile */
+  @media screen and (max-width: 431px){
+  .desktop{
+    display: none;
+}
+
+
+.nav-flex{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    padding: 10px;
+}
+
+
+
+.intro-content{
+    
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    padding-bottom: 32px;
+
+}
+
+.intro-content-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4c4c4c;
+}
+
+.intro-content-detail1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#4c4c4c;
+}
+
+.header-botton{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: #9c9c9c;
+    border: none;
+}
+
+
+
+.cover{
+    padding:16px;
+    background-color: #f0f4f3;
+}
+
+.cover img{
+    width: 100%;
+}
+
+.card1-cover,
+.card2-cover,
+.card3-cover{
+  padding: 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-head{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color:#4c4c4c;
+}
+.card-info{
+    font-size: 1.2rem;
+    color:#4c4c4c;
+}
+.card-link{
+    font-size: 1.3rem;
+    color:#5db6ec;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+
+.learningmobile{
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#4c4c4c;
+}
+
+.learningmobile-head{
+    font-size: 2.6rem;
+    font-weight: bold;
+    
+}
+
+.learningmobile-head-course{
+   
+    padding: 16px;
+    padding-bottom: 32px;
+}
+
+.course1,
+.course2,
+.course3,
+.course4,
+.course5,
+.course6{
+    padding: 16px 16px 24px 16px;
+    background-color: #d8d8d8;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+
+.thesis-head{
+    font-size: 2.6rem;
+    font-weight: bold;
+  
+    padding-bottom: 16px;
+    
+}
+.thesis{
+background: #f0f4f3;
+display: flex;
+flex-direction: column;
+text-align: center;
+color:#4c4c4c;
+}
+
+.thesis-player{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.footer{
+    padding: 16px;
+    font-size: 1rem;
+  
+    color:#4c4c4c;
+}
+  }
+
+
+
+
+
 @media screen and (min-width: 431px){
 .navbar{
     display: flex;
@@ -316,137 +471,16 @@ display: flex;
     margin-left: 8px;
 }
 
-.navmobile{
-
-    display:none;
-}
-
-.detailbox2{
-    display: none;
-}
-
-.learningmobile{
+.mobile{
     display: none;
 }
   }
 /* end of pc */
   
 
-/* start mobile */
-
-
-.navbar{
-    display: none;
-}
 
 
 
 
-.nav-flex{
-    text-align: center;
-    font-size: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    height: 64px;
-    padding: 10px;
-}
-
-.learn-card1{
-    display: none;
-}
-
-.intro-content{
-    
-    background-color: #dbdbdb;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    padding-bottom: 32px;
-
-}
-
-.intro-content-header{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 32px;
-    color:#4c4c4c;
-}
-
-.intro-content-detail1{
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-bottom: 32px;
-    color:#4c4c4c;
-}
-
-.header-botton{
-    height: 3rem;
-    width: 100%;
-    color: white;
-    font-weight: bold;
-    background-color: #9c9c9c;
-    border: none;
-}
-
-.detailbox1{
-    display: none;
-}
-
-.cover{
-    padding:16px;
-    background-color: #f0f4f3;
-}
-
-.cover img{
-    width: 100%;
-}
-
-.card1-cover,
-.card2-cover,
-.card3-cover{
-  padding: 16px;
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-head{
-    font-size: 1.7rem;
-    font-weight: bold;
-    color:#4c4c4c;
-}
-.card-info{
-    font-size: 1.2rem;
-    color:#4c4c4c;
-}
-.card-link{
-    font-size: 1.3rem;
-    color:#5db6ec;
-    font-weight: bold;
-    padding-bottom: 32px;
-}
-
-.learning{
-    display: none;
-}
-
-.learningmobile{
-    background: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color:#4c4c4c;
-}
-
-.learningmobile-head{
-    font-size: 2.6rem;
-    font-weight: bold;
-    
-}
-
-.learningmobile-head-course{
-    background-color: #d8d8d8;
-    padding: 16px;
-}
 
 
