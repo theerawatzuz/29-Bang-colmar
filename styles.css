@@ -321,6 +321,13 @@ display: flex;
     display:none;
 }
 
+.detailbox2{
+    display: none;
+}
+
+.learningmobile{
+    display: none;
+}
   }
 /* end of pc */
   
@@ -381,7 +388,65 @@ display: flex;
     border: none;
 }
 
+.detailbox1{
+    display: none;
+}
 
+.cover{
+    padding:16px;
+    background-color: #f0f4f3;
+}
 
+.cover img{
+    width: 100%;
+}
+
+.card1-cover,
+.card2-cover,
+.card3-cover{
+  padding: 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-head{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color:#4c4c4c;
+}
+.card-info{
+    font-size: 1.2rem;
+    color:#4c4c4c;
+}
+.card-link{
+    font-size: 1.3rem;
+    color:#5db6ec;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.learning{
+    display: none;
+}
+
+.learningmobile{
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#4c4c4c;
+}
+
+.learningmobile-head{
+    font-size: 2.6rem;
+    font-weight: bold;
+    
+}
+
+.learningmobile-head-course{
+    background-color: #d8d8d8;
+    padding: 16px;
+}
 
 
